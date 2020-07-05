@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ranklist</class>
+ <widget class="QWidget" name="Ranklist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Arial&quot;;
+font: 26pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>排行榜</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>221</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>score</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>yyy</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>120</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>dfdf</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>80</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>dfdf</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>45</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>kgs</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>30</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>fdgr</string>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>10</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
